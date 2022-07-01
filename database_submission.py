@@ -39,12 +39,12 @@ fileList = ('information.docx','Hello.txt','myImage.png', \
 #loop that analyzes the tuple and finds those with .txt,
 #then splits the fileList we want into a one-element tuples
 #and finally adds it to the table (also prints it out in console)
-for x in fileList:
-    if x.endswith('.txt'):
-        with conn:
-            cur = conn.cursor()
+with conn:
+    cur = conn.cursor()
+    for x in fileList:
+        if x.endswith('.txt'):
             #adding data note...?'S are wildcards
             cur.execute("INSERT INTO tbl_fileList(col_fileName) VALUES (?)",(x,))
             conn.commit()#committing our changes
-        print(x)
+            print(x)
 conn.close() #close the connection
