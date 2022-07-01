@@ -1,0 +1,3 @@
+Used to create absolute file path in python
+_______________________________________________
+
