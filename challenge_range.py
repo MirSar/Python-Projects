@@ -8,10 +8,6 @@
 # Purpose:      The Tech Academy - Python Course
 
 # Assignment:   Range CHALLENGE
-"""
-Complete these actions:
-
-"""
 
 #===================================================================================
 #================
@@ -22,9 +18,23 @@ Complete these actions:
 #Main Section:
 #=============
 
+# Using range()print 0 1 2 3
+x = range(4)
+for n in x:
+    print(n)
 
+# Using range()print 3 2 1 0
+print("-----------------")
+x = range(3,-1,-1)
+for n in x:
+    print(n)
 
-
+# Using range()print 8 6 4 2
+print("-----------------")
+x = range(8,1,-2)
+for n in x:
+    print(n)
+    
         
 #===================================================================================
 #program flow control:
