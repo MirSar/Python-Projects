@@ -1,6 +1,6 @@
 README.md
 ======================================================
-updated 6-14-2022
+updated 8-16-2022
 Mirwais Sarwary
 ======================================================
 
@@ -12,3 +12,9 @@ program.
 For this course we created a display of sample work using Python.
 
 ##PROJECTS
+--------------------------------------------------------
+*
+*
+*
+
+### ProjectName
