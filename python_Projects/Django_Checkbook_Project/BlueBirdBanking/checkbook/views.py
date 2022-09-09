@@ -43,7 +43,7 @@ def balance(request, pk):
     current_total = account.initial_deposit
     # Create a dictionary into which transaction info will be placed
     table_contents = {}
-    # Loop through transactions and determin which is a deposit or withdrawal
+    # Loop through transactions and determine which is a deposit or withdrawal
     for t in transactions:
         if t.type == 'Deposit':
             current_total += t.amount
